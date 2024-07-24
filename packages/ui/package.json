@@ -1,17 +1,17 @@
 {
-  "name": "@accessories/ui",
+  "name": "ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./": "./src/index.ts"
+    ".": "./src/index.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "eslint-config": "*",
+    "typescript-config": "*",
     "@turbo/gen": "^1.12.4",
     "@types/node": "^20.11.24",
     "@types/eslint": "^8.56.5",
